@@ -1,0 +1,215 @@
+/*  
+Template Name: SweeTooth
+Template URI: http://divthemes.com/
+Description: Custom design for SweeTooth's Homepage. The design is highly inspired from Elemis' Patisserie Newsletter available at http://elemisfreebies.com/11/03/patisserie-newsletter-psd/, but was coded from scratch. 
+Author: thinkdj
+Author URI: http://think.dj/
+Tags: cake shop, bakery, cakes, chocolate, pink, chic, minimalist, single column
+Date: 03 Oct 2011 8:00P-9:45P
+*/
+
+/* Fonts */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/open/OpenSans-Regular-webfont.eot');
+    src: url('fonts/open/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/open/OpenSans-Regular-webfont.woff') format('woff'),
+         url('fonts/open/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('fonts/open/OpenSans-Regular-webfont.svg#OpenSansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*  {
+  margin:0;
+  padding:0;   
+  /*outline:0;*/
+}
+
+body {
+  background: #FFF url(images/bg_x.png) repeat;
+  margin: 0 auto;
+  border-top: 3px solid #F77687;
+  font: 13px/17px 'Open Sans', Segoe UI, sans-serif;
+  text-shadow: 0 1px 0 #fff;
+  color: #333;
+}
+
+a { 
+  text-decoration: none;
+  color: #7C5E55;
+}
+
+#container { 
+  width: 900px;
+  margin: 0 auto;
+  background: #EAEBEC;
+  min-height: 600px;
+  border-left: 1px solid #FFF;
+  border-right: 1px solid #FFF;
+  box-shadow: 0 5px 30px #FFF;
+}
+
+#logo {
+  border-bottom: 1px solid #ccc 
+}
+
+#body {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #ccc 
+}
+
+#footer { 
+  border-top: 1px solid #fff;
+  font-size: 11px;
+}
+
+#credits { 
+  float: right
+}
+
+h1,h2,h3,h4,h5,h6 { sfont-family: OpenSansBold, Segoe UI  }
+
+h2 {
+  font-size: 18px;
+  color: #F77687;
+  text-transform: uppercase;
+  width: 100%;
+  box-shadow: 0 1px 0 #FFF;
+  border-bottom: 1px solid #CCC;
+  margin: 0 0 20px 0;
+  padding: 0 0 10px 0;
+}
+
+p {
+  margin: 0 0 15px 0;
+  text-align: justify;
+  -text-shadow: none;
+}
+
+ol, ul {
+  margin: -10px 0 20px 40px;
+  display: block !important;
+  padding: 0;
+  -text-shadow: none;
+}
+
+.padding {
+  padding: 20px;
+}
+.padding-tb {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.padding-rl {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.left { float:left }
+.right { float:right }
+.clear { clear:both } 
+
+
+#contact {
+  font-weight: bold;
+  float:right;
+  text-align: right;
+  font-size:12px;
+  text-transform: uppercase;
+  line-height: 16px;
+  color: #F77687;
+  padding: 22px 0 0;
+}
+#contact .number {
+  display:block;
+  font-size: 30px;
+  color: #7C5E55;
+  line-height: 26px;
+}
+
+#about {
+  width: 220px;
+  margin-right: 0px;
+  float: left;
+}
+
+
+#usp {
+  width: 640px;
+  height: 333px;
+  background: url(images/central.png) no-repeat center bottom;
+  float:right; 
+}
+
+img, a img, img a { border:0 }
+
+#cake_container {
+
+}
+
+.cake_box {
+	width:132px;
+	height:150px;
+	float:left;
+	background-color:#fff;
+	border:1px solid #E2E1E0;
+	padding:10px;
+	margin:0px 9px 25px 9px;
+	text-align:left;
+	font-size:12px;
+}
+
+.cake_box.last {
+  margin-right:0
+}
+
+.cake_box:hover { 
+  box-shadow: 0 0 5px #777;
+}
+.cake_box a { 
+  display:block;
+  color: #222;
+  text-decoration: none;
+  height: 150px;
+}
+.cake_box p {
+  font-weight: bold;
+	margin: 0px;
+	padding:0px 0px 5px 0px;
+	text-align: right;
+}
+
+.cake_box img {  border: 1px solid #E2E1E0; opacity:0.40 }
+.cake_box img:hover, .cake_box a:hover img, .cake_box:hover img { opacity:1 } 
+
+.cake_box p.image { height:83px; background:#F1BFC4 url(images/bg_x.png) }
+
+.cake_box p.price {
+  font-weight: normal;
+  font-size: 13px;
+}
+
+#cupcake_info {
+  float:left;
+  margin-left: 10px;
+  padding: 82px 0 0;
+}
+
+#tooltip{
+	position:absolute;
+	border:1px solid #E2DACF;
+	background:#fff;
+	padding:2px 5px;
+	padding: 10px;
+	line-height: 20px;
+	color:#333;
+	display:none;
+	max-width: 300px;
+	box-shadow: 1px 1px 8px #777;
+	opacity: 0.94;
+	}
+	
+.cake_box, .cake_box img, #tooltip {
+  border-radius: 4px;
+}
